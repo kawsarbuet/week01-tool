@@ -5,9 +5,11 @@ This program reads a student's mark out of 100, validates the input, and prints 
 ## Setup
 
 python -m venv .venv
-source .venv/bin/activate      # macOS and Linux 
-.venv\Scripts\Activate.ps1     # Windows PowerShell 
-.venv\Scripts\activate.bat     # Windows Command Prompt 
+
+# macOS and Linux: source .venv/bin/activate     
+# Windows PowerShell: .venv\Scripts\Activate.ps1    
+# Windows Command Prompt: .venv\Scripts\activate.bat  
+
 pip install -r requirements.txt
 
 ## Run
@@ -17,6 +19,7 @@ python grade_classifier.py
 ## Example
 
 Enter a mark out of 100: 85
+
 The letter grade for 85 is: B
 
 ## Known limitations
